@@ -1,0 +1,13 @@
+package mod;
+
+public class Student {
+	private int id;
+	private String name;
+	double  marks;
+	
+	
+	public Student() {
+	
+	}
+
+}

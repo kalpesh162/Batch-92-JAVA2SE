@@ -1,0 +1,13 @@
+package mod;
+
+public class App {
+
+	
+	public static void main(String[] args) {
+		 Student s1 = new Student(1, "Shah Rukh Khan", 95.5);
+	        Student s2 = new Student(2, "Salman Khan", 88.0);
+	        Student s3 = new Student(3, "Aamir Khan", 92.5);
+	        Student s4 = new Student(4, "Deepika Padukone", 89.5);
+	        Student s5 = new Student(5, "Ranbir Kapoor", 91.0);
+	}
+}

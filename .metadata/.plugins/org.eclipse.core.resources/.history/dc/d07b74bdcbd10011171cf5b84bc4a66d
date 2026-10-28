@@ -1,0 +1,15 @@
+package com.app;
+
+import java.util.ArrayList;
+
+import com.model.Student;
+
+public class App {
+
+	public static void main(String[] args) {
+		// Data
+		ArrayList<Student> students = new ArrayList<Student>();
+
+	}
+
+}

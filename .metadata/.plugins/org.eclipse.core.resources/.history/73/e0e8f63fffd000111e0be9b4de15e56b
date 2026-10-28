@@ -1,0 +1,23 @@
+package basic;
+
+import java.util.ArrayList;
+
+public class App1 {
+	
+	public static void main(String[] args) {
+		
+		ArrayList<String> friends=new ArrayList<String>();
+		friends.add("Kareena");
+		friends.add("Raveena");
+		friends.add("Anup");
+		friends.add("Katrina");
+		friends.add("Rahul");
+		
+		//System.out.println(friends.get(10));  // java.lang.IndexOutOfBoundsException: Index: 10, Size: 5
+		
+		friends.set(0, "Deepika")
+		
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package basic;
+
+public class App3 {
+	
+	public static void main(String[] args) {
+		int A[]= {11,22,33,44,55};
+		
+		// Convert Array To ArrayList
+	}
+
+}

@@ -1,0 +1,33 @@
+package basic;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class App2 {
+	
+	public static void main(String[] args) {
+		
+		//List<E>	subList(int fromIndex, int toIndex)
+		
+		ArrayList<String> friends = new ArrayList<String>();
+		friends.add("Kareena");
+		friends.add("Raveena");
+		friends.add("Anup");
+		friends.add("Katrina");
+		friends.add("Rahul");
+		friends.add("Raveena");
+		friends.add("Anup");
+		friends.add("Katrina");
+		friends.add("Rahul");
+
+		System.out.println("index Of   ---> "+friends.indexOf("Anup"));
+		System.out.println("lastindex Of   ---> "+friends.lastIndexOf("Anup"));
+		
+		//int	indexOf(Object o)
+		
+		//int	lastIndexOf(Object o)
+		
+		List<String>sublist=friends.subList(2, 5);  // from=2  <end
+	}
+
+}

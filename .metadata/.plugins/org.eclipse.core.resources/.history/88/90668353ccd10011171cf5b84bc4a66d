@@ -1,0 +1,29 @@
+package com.app;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import com.model.Student;
+
+public class App {
+
+	private static Scanner scanner = new Scanner(System.in);
+
+	public static Student inputStudent() {
+		System.out.println("ENTER ID  :");
+		int id = scanner.nextInt();
+		System.out.println("ENTER Name  :");
+		String name = scanner.next();
+		System.out.println("ENTER Marks  :");
+		double marks = scanner.nextDouble();
+
+		return new Student(id, name, marks);
+	}
+
+	public static void main(String[] args) {
+		// Data
+		ArrayList<Student> students = new ArrayList<Student>();
+
+	}
+
+}

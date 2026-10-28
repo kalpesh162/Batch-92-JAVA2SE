@@ -1,0 +1,23 @@
+package basic;
+
+import java.util.ArrayList;
+
+public class App3 {
+	
+	public int sumof(ArrayList<Integer>list) {
+		int sum=0;
+	}
+	
+	public static void main(String[] args) {
+		int A[]= {11,22,33,44,55};
+		
+		// Convert Array To ArrayList
+		ArrayList<Integer>list=new ArrayList<Integer>(A.length);
+		
+		for(int i=0;i<A.length;i++)
+			list.add(A[i]);
+		
+		
+	}
+
+}

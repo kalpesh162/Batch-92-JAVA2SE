@@ -1,0 +1,20 @@
+package basic;
+
+import java.util.ArrayList;
+
+public class App01 {
+	
+	public static void main(String[] args) {
+		
+		ArrayList<String> friends=new ArrayList<>();
+		friends.add("Amit");
+		friends.add("Suraj");
+		friends.add("Rahul");
+		friends.add("Lahu");
+		friends.add("Yogesh");
+		
+		
+		
+	}
+
+}

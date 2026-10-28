@@ -1,0 +1,16 @@
+package basic;
+
+public class App2 {
+	
+	public static void main(String[] args) {
+		
+		//List<E>	subList(int fromIndex, int toIndex)
+		
+		
+		
+		//int	indexOf(Object o)
+		
+		//int	lastIndexOf(Object o)
+	}
+
+}
