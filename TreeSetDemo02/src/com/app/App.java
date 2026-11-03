@@ -1,12 +1,26 @@
 package com.app;
 
 import java.util.Comparator;
+import java.util.SortedSet;
 import java.util.TreeSet;
 
 import com.model.Book;
 import com.model.BookNameComparator;
 
 public class App {
+	
+	static  void sortedSetMethods(SortedSet<Book>ts){
+		
+		System.out.println("First   "+ts.first());
+		System.out.println("Last   "+ts.last());
+		Book b4 = new Book(104, "Effective Java", "Joshua Bloch", 650.00);
+		System.out.println(ts.headSet(b4));   // from    < to
+		
+		System.out.println();
+		System.out.println(ts.tailSet(b4));  // from=    to
+		
+		
+	}
 
 	public static void main(String[] args) {
 
@@ -92,6 +106,8 @@ public class App {
 
 		System.out.println("++++++++++++++++++++++++++++++");
 
+		
+		sortedSetMethods(byBookPrice);
 	}
 
 }
