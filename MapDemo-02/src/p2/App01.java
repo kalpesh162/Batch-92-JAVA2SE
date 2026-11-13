@@ -16,7 +16,7 @@ public class App01 {
 		hs.put(34, "Gaurii");
 		hs.put(45, "Pratiksha");
 
-		// print etries == K V
+		// print entries == K V
 
 		Set entries = hs.entrySet();
 

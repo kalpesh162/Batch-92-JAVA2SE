@@ -406,3 +406,53 @@
 2026-11-05 04:47:23.341: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-11-05 04:47:23.341: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-11-05 05:11:46.391: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-05 05:16:52.125: [INFO] CurrentProfilePath: E:\Batch92-JAVA2SE\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-11-05 05:16:52.125: [INFO] Profiles total count: 1
+2026-11-05 05:16:52.125: [INFO] Profile: name=Profile 1 path=E:\Batch92-JAVA2SE\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-26T04:50:22.769Z
+2026-11-05 05:16:52.125: [INFO] LastUsedProfileDir: E:\Batch92-JAVA2SE\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-11-05 05:16:52.125: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=E:\Batch92-JAVA2SE\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-26T04:50:22.769Z
+2026-11-05 05:16:52.125: [INFO] OnDoneLoading sync enabled: 0
+2026-11-05 05:16:52.125: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-05 05:16:52.125: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-05 05:16:52.125: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-05 07:29:03.178: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-13 05:07:10.884: [INFO] CurrentProfilePath: E:\Batch92-JAVA2SE\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-11-13 05:07:10.884: [INFO] Profiles total count: 1
+2026-11-13 05:07:10.884: [INFO] Profile: name=Profile 1 path=E:\Batch92-JAVA2SE\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-26T04:50:22.769Z
+2026-11-13 05:07:10.884: [INFO] LastUsedProfileDir: E:\Batch92-JAVA2SE\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-11-13 05:07:10.884: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=E:\Batch92-JAVA2SE\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-26T04:50:22.769Z
+2026-11-13 05:07:10.884: [INFO] OnDoneLoading sync enabled: 0
+2026-11-13 05:07:10.884: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-13 05:07:10.884: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-13 05:07:10.884: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-13 05:10:59.324: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-13 05:13:09.423: [INFO] CurrentProfilePath: E:\Batch92-JAVA2SE\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-11-13 05:13:09.423: [INFO] Profiles total count: 1
+2026-11-13 05:13:09.423: [INFO] Profile: name=Profile 1 path=E:\Batch92-JAVA2SE\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-26T04:50:22.769Z
+2026-11-13 05:13:09.423: [INFO] LastUsedProfileDir: E:\Batch92-JAVA2SE\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-11-13 05:13:09.423: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=E:\Batch92-JAVA2SE\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-26T04:50:22.769Z
+2026-11-13 05:13:09.423: [INFO] OnDoneLoading sync enabled: 0
+2026-11-13 05:13:09.423: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-13 05:13:09.423: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-13 05:13:09.423: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-13 05:17:15.347: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-13 05:17:23.111: [INFO] CurrentProfilePath: E:\Batch92-JAVA2SE\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-11-13 05:17:23.111: [INFO] Profiles total count: 1
+2026-11-13 05:17:23.111: [INFO] Profile: name=Profile 1 path=E:\Batch92-JAVA2SE\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-26T04:50:22.769Z
+2026-11-13 05:17:23.111: [INFO] LastUsedProfileDir: E:\Batch92-JAVA2SE\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-11-13 05:17:23.111: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=E:\Batch92-JAVA2SE\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-26T04:50:22.769Z
+2026-11-13 05:17:23.111: [INFO] OnDoneLoading sync enabled: 0
+2026-11-13 05:17:23.111: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-13 05:17:23.111: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-13 05:17:23.111: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-13 05:22:10.479: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-13 05:22:10.575: [INFO] CurrentProfilePath: E:\Batch92-JAVA2SE\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-11-13 05:22:10.575: [INFO] Profiles total count: 1
+2026-11-13 05:22:10.575: [INFO] Profile: name=Profile 1 path=E:\Batch92-JAVA2SE\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-26T04:50:22.769Z
+2026-11-13 05:22:10.575: [INFO] LastUsedProfileDir: E:\Batch92-JAVA2SE\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-11-13 05:22:10.575: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=E:\Batch92-JAVA2SE\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-26T04:50:22.769Z
+2026-11-13 05:22:10.575: [INFO] OnDoneLoading sync enabled: 0
+2026-11-13 05:22:10.575: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-13 05:22:10.575: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-13 05:22:10.575: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-13 05:22:10.870: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
