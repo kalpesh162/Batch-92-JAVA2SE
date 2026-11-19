@@ -42,28 +42,83 @@ public class StudentDAO {
 		}
 	}
 
-	public List<Student> getAllStudents() {
-		
-		List<Student>list=new ArrayList<Student>();
-       try {
-		Class.forName("com.mysql.cj.jdbc.Driver");
+	public void deleteStudent(int id) {
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
 
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jap92", "root", "root");
+			// Step 2 Get DB Connection
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jap92", "root", "root");
 
-		String SQL = "SELECT ID,NAME,MARKS FROM STUDENT";
-		PreparedStatement ps = con.prepareStatement(SQL);
+			String query = "DELETE FROM STUDENT WHERE id=?";
 
-		ResultSet rs = ps.executeQuery();
+			// Create PreparedStatement Object By Calling method from Connection
+			PreparedStatement ps = con.prepareStatement(query);
 
-		while (rs.next()) {
-				Student student=new Student(rs.getInt(1), rs.getString(2), rs.getDouble(3));
-				list.add(student);
+			ps.setInt(1, id);
+
+			// Excute Query
+
+			int rowCount = ps.executeUpdate();
+
+			if (rowCount > 0)
+				System.out.println("Data DELETE SUCESS...");
+		} catch (Exception e) {
+
+			System.out.println("While Adding Student   --->   " + e);
+
 		}
-       }catch (Exception e) {
-		System.out.println("While Reading Student  "+e);
 	}
 
-       return list;
+	public void updateStudent(Student student) {
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+
+			// Step 2 Get DB Connection
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jap92", "root", "root");
+			// 1 2 3
+			String query = "UPDATE STUDENT SET name=? , marks=?  WHERE id=?";
+
+			// Create PreparedStatement Object By Calling method from Connection
+			PreparedStatement ps = con.prepareStatement(query);
+
+			ps.setString(1, student.getName());
+			ps.setDouble(2, student.getMarks());
+			ps.setInt(3, student.getId());
+
+			int rowCount = ps.executeUpdate();
+
+			if (rowCount > 0)
+				System.out.println("Data UPDATE SUCESS...");
+
+		} catch (Exception e) {
+
+			System.out.println("While Adding Student   --->   " + e);
+
+		}
+	}
+
+	public List<Student> getAllStudents() {
+
+		List<Student> list = new ArrayList<Student>();
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jap92", "root", "root");
+
+			String SQL = "SELECT ID,NAME,MARKS FROM STUDENT";
+			PreparedStatement ps = con.prepareStatement(SQL);
+
+			ResultSet rs = ps.executeQuery();
+
+			while (rs.next()) {
+				Student student = new Student(rs.getInt(1), rs.getString(2), rs.getDouble(3));
+				list.add(student);
+			}
+		} catch (Exception e) {
+			System.out.println("While Reading Student  " + e);
+		}
+
+		return list;
 	}
 
 }

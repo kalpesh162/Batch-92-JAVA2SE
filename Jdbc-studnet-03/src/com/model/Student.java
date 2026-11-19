@@ -42,7 +42,7 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return "Student [id=" + id + ", name=" + name + ", marks=" + marks + "]";
+		return String.format("%-5d | %-10s | %-10.2f ", id, name, marks);
 	}
 
 }
