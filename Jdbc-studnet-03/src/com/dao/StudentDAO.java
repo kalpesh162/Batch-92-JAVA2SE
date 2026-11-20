@@ -10,6 +10,8 @@ import java.util.List;
 import com.model.Student;
 
 public class StudentDAO {
+	
+	
 
 	public void addStudent(Student student) {
 		try {
@@ -119,6 +121,32 @@ public class StudentDAO {
 		}
 
 		return list;
+	}
+
+	public Student findStudentById(int id) {
+		Student student=null;
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jap92", "root", "root");
+
+			//String SQL = "SELECT ID,NAME,MARKS FROM STUDENT WHERE ID=?";
+			String SQL = "SELECT * FROM STUDENT WHERE ID=?";
+			PreparedStatement ps = con.prepareStatement(SQL);
+			ps.setInt(1, id);
+
+			ResultSet rs = ps.executeQuery();
+
+			if (rs.next()) {
+				student = new Student(rs.getInt(1), rs.getString(2), rs.getDouble(3));
+
+			}
+		} catch (Exception e) {
+			System.out.println("While Reading Student  " + e);
+		}
+		
+		return student;
+
 	}
 
 }

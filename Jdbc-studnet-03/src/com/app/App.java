@@ -39,7 +39,8 @@ public class App {
 			System.out.println(" 2 :  DELETE  STUDENT  ");
 			System.out.println(" 3 :  GET ALL STUDENT  ");
 			System.out.println(" 4 :  UPDATE  STUDENT  ");
-			System.out.println(" 5 :  EXIT  ");
+			System.out.println(" 5 :  GET  STUDENTBYID ");
+			System.out.println(" 6 :  EXIT  ");
 
 			int option;
 			Scanner scanner = new Scanner(System.in);
@@ -67,6 +68,15 @@ public class App {
 				dao.updateStudent(student1);
 				break;
 			case 5:
+				System.out.println("Enter id");
+				int id1 = scanner.nextInt();
+				Student student2 = dao.findStudentById(id1);
+				if (student2 != null)
+					System.out.println(student2);
+				else
+					System.out.println("STUDENT WITH ID NOT FOUND " + id1);
+				break;
+			case 6:
 				System.out.println("**** THANK YOU *****");
 				System.exit(0);
 				break;
