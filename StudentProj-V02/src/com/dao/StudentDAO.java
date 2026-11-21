@@ -1,7 +1,6 @@
 package com.dao;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
@@ -11,7 +10,28 @@ import com.model.Student;
 import com.utilty.DBUtility;
 
 public class StudentDAO {
-	
+
+	public void addAllStudent(List<Student> list) {
+		String query = "insert into student (id,name,marks) values(?,?,?)";
+
+		try (Connection con = DBUtility.getDBConnection(); PreparedStatement ps = con.prepareStatement(query)) {
+
+			for (Student student : list) {
+				ps.setInt(1, student.getId());
+				ps.setString(2, student.getName());
+				ps.setDouble(3, student.getMarks());
+
+				int rowCount = ps.executeUpdate();
+				if (rowCount > 0)
+					System.out.println("Data Added SUCESS...");
+			}
+
+		} catch (Exception e) {
+			System.out.println("While Adding Student   --->   " + e);
+		}
+
+	}
+
 	public void addStudent(Student student) {
 		String query = "insert into student (id,name,marks) values(?,?,?)";
 

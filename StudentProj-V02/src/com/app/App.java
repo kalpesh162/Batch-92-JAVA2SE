@@ -1,5 +1,6 @@
 package com.app;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -40,7 +41,8 @@ public class App {
 			System.out.println(" 3 :  GET ALL STUDENT  ");
 			System.out.println(" 4 :  UPDATE  STUDENT  ");
 			System.out.println(" 5 :  GET  STUDENTBYID ");
-			System.out.println(" 6 :  EXIT  ");
+			System.out.println(" 6 :  ADD MULTIPLE STUDENTS  ");
+			System.out.println(" 7 :  EXIT  ");
 
 			int option;
 			Scanner scanner = new Scanner(System.in);
@@ -48,7 +50,7 @@ public class App {
 
 			switch (option) {
 			case 1:
-				Student student = inputStudent();
+				Student student = inputStudent();   // List<Student>list
 				dao.addStudent(student);
 				break;
 
@@ -76,7 +78,22 @@ public class App {
 				else
 					System.out.println("STUDENT WITH ID NOT FOUND " + id1);
 				break;
+				
 			case 6:
+				     System.out.println("How Many Student Want to ADD  ");;
+				     int count=scanner.nextInt();
+				     
+				     List<Student>studlist=new ArrayList<Student>(count);
+				     
+				     while (count>=1) {
+				    	 studlist.add(inputStudent());
+						count--;
+					}
+				     
+				     
+				   dao.addAllStudent(studlist);  
+				     
+			case 7:
 				System.out.println("**** THANK YOU *****");
 				System.exit(0);
 				break;

@@ -6,12 +6,13 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
+
+// we have done through static block
 public class DBUtility {
 	private String url;
 	private String driverClass;
 	private String username;
 	private String password;
-
 	@SuppressWarnings("unused")
 	private DBUtility() {
 
@@ -29,6 +30,8 @@ public class DBUtility {
 			driverClass = properties.getProperty("db.driver_class");
 			username = properties.getProperty("db.username");
 			password = properties.getProperty("db.password");
+			
+			fileInputStream.close();
 
 		} catch (Exception e) {
 			System.out.println("---->  " + e);
