@@ -5,11 +5,12 @@ import java.util.List;
 import java.util.Scanner;
 
 import com.dao.StudentDAO;
+import com.dao.StudentDAOFactory;
 import com.model.Student;
 
 public class App {
 
-	static StudentDAO dao = new StudentDAO(); // this dao object has all method related to database logic
+	static StudentDAO dao = StudentDAOFactory.getStudentDAO();
 
 	public static Student inputStudent() {
 		Scanner scanner = new Scanner(System.in);
@@ -50,7 +51,7 @@ public class App {
 
 			switch (option) {
 			case 1:
-				Student student = inputStudent();   // List<Student>list
+				Student student = inputStudent(); // List<Student>list
 				dao.addStudent(student);
 				break;
 
@@ -78,21 +79,21 @@ public class App {
 				else
 					System.out.println("STUDENT WITH ID NOT FOUND " + id1);
 				break;
-				
+
 			case 6:
-				     System.out.println("How Many Student Want to ADD  ");;
-				     int count=scanner.nextInt();
-				     
-				     List<Student>studlist=new ArrayList<Student>(count);
-				     
-				     while (count>=1) {
-				    	 studlist.add(inputStudent());
-						count--;
-					}
-				     
-				     
-				   dao.addAllStudent(studlist);  
-				     
+				System.out.println("How Many Student Want to ADD  ");
+				;
+				int count = scanner.nextInt();
+
+				List<Student> studlist = new ArrayList<Student>(count);
+
+				while (count >= 1) {
+					studlist.add(inputStudent());
+					count--;
+				}
+
+				dao.addAllStudent(studlist);
+
 			case 7:
 				System.out.println("**** THANK YOU *****");
 				System.exit(0);
