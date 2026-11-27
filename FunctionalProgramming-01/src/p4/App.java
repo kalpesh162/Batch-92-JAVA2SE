@@ -46,13 +46,14 @@ public class App {
 		};
 
 		System.out.println("+++++++++++++++++++++++++");
-		Sayable s5 = (n) ->  n.hashCode();
-		
+		Sayable s5 = (n) -> n.hashCode();
+
 		// {} return nahi likhana hai to { } nahi dene ka
-		
+
 		System.out.println("+++++++++++++++++++++++++");
-		Sayable s6 = n ->  n.hashCode();
+		Sayable s6 =   n -> n.hashCode();
 		
+
 	}
 
 }

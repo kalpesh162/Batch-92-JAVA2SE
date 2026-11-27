@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Vector"/>
-    <fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="java.util.Enumeration"/>
-    <fullyQualifiedTypeName name="java.lang.Character"/>
-    <fullyQualifiedTypeName name="java.util.Stack"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-    <fullyQualifiedTypeName name="p1.Student"/>
-    <fullyQualifiedTypeName name="p2.Data"/>
-    <fullyQualifiedTypeName name="p2.Student"/>
-    <fullyQualifiedTypeName name="com.model.Book"/>
     <fullyQualifiedTypeName name="com.model.BookNameComparator"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
@@ -60,4 +49,15 @@
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicBoolean"/>
     <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="p1.Hello"/>
+    <fullyQualifiedTypeName name="p1.Sayable"/>
+    <fullyQualifiedTypeName name="java.awt.datatransfer.StringSelection"/>
+    <fullyQualifiedTypeName name="p2.Hello"/>
+    <fullyQualifiedTypeName name="p2.Sayable"/>
+    <fullyQualifiedTypeName name="p3.Hello"/>
+    <fullyQualifiedTypeName name="java.lang.SafeVarargs"/>
+    <fullyQualifiedTypeName name="p3.Sayable"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="p4.Hello"/>
+    <fullyQualifiedTypeName name="p4.Sayable"/>
 </qualifiedTypeNameHistroy>
